@@ -19,8 +19,6 @@ The study provides valuable insights for enhancing causal discovery in financial
 - [Usage](#usage)
   - [SRC](#src)
   - [Data](#data)
-- [Documentation](#documentation)
-- [Figures](#figures)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -84,36 +82,21 @@ This work is based on Jupiter notebooks, the user can find, for each section of 
 
 ### SRC
 The [SRC](https://github.com/SaveChris/EUA_Volatility_DII_p/tree/main/SRC) section is organized as follows:
-- **'Sec_1_Introduction.ipynb'** contains the code to reproduce the results obtained in *Section 1 - Introduction*;
-- **'Sec_3_Methods.ipynb'** contains the code to reproduce the results obtained in *Section 3 - Methods*;
-- **'Sec_4_Price_determinants.ipynb'** contains the code to reproduce the results in *Section 4 - Price_determinants*;
-- **'Sec_5_Time-scale_aggregation_and_forecasting.ipynb'** contains the code to reproduce the results in *Section 5 - Time-scale aggregation and forecasting*;
-- **'A_appendix.ipynb'** contains the code to reproduce the results in *Appendix*;
-- **'S_Supplementary_material.ipynb'** contains the code to reproduce supplementary results;
-- **'check_equal_distances.py'** contains new custom function for analyzing the distances between points;
-- **'utils_perturb.py'** contains new custom function for random perturbation of points;
-- **'utils_zero_dist_imbalance.py'** contains the custom function for dealing with zero distance points. 
+- **'Sec1_Introduction.ipynb'** contains the code to reproduce the results obtained in *Section 1 - Introduction*;
+- **'Sec2_Data.ipynb** contains the code to reproduce the results obtained in *Section 2 - Data*;
+- **'Sec3_Methodology.ipynb'** contains the code to reproduce the results obtained in *Section 3 - Methodology*;
+- **'Sec4_Empirical_Analysis.ipynb'** contains the code to reproduce the results in *Section 4 - Empirical Analysis*;
+- **'A_appendix.ipynb'** contains the code to reproduce the results in *Appendix*.
 
 ### Data
 The [Data](https://github.com/SaveChris/EUA_Volatility_DII_p/tree/main/Data) section is organized as follows:
-- **'Dataset_EUA23.xlsx'** contains raw dataset;
-- **'Dataset_Sample_GDP_Weekly.xlsx'** contains dataset used for the imputation and aggregation example;
-- **'Dataset_X_Final_Weekly.xlsx'** contains dataset used for the imputation and imputation example;
-- **'Dataset_eua_IMv4.3.xlsx'** contains raw dataset;
-- **'Dataset_eua_Macro_V1.xlsx'** contains raw macroeconomic dataset;
-- **'DescriptiveStatisticsAll.xlsx'** contains the descriptive statistics of the data;
-- **'biweekly_data.txt'** contains the biweekly data used in the paper;
-- **'daily_data.txt'** contains the daily data used in the paper;
-- **'monthly_data.txt'** contains the quarterly data used in the paper;
-- **'weekly_data.txt'** contains the monthly data used in the paper.
-
-## Documentation
-The [Documentation](https://github.com/SaveChris/EUA_Volatility_DII_p/tree/main/Documentation) section is organized as follows:
-- **'EUA_Volatility_DII.pdf'** contains the paper.
-- **'EUA_Volatility_DII_p.pdf'** contains the presentation of the paper.
-
-## Figures
-The [Figures](https://github.com/SaveChris/EUA_Volatility_DII_p/tree/main/Figures) section contains the figures used, numbered as in the paper.
+- **'Dataset_EUA_24_Daily_Returns.xlsx'** contains raw financial returns dataset;
+- **'EUA_All_Phases_Daily.xlsx'** contains dataset used for EUA price dynamics (Fig:1);
+- **'IG_DII_E1_returns.p'** contains pickle results of the estimated IG through DII;
+- **'IGs_toymodel.p'** contains pickle results of the estimated IG through DII for the toy model;
+- **'quadratic_and_linear_XY_to_Z.p'** contains raw dataset for toy model;
+- **'weights_DII_E1_returns.p'** contains estimated causal coefficients through DII;
+- **'weights_toymodel.p'** contains the estimated causal coefficients through DII for the toy model.
 
 ## Contributing
 We welcome contributions to improve **EUA_Volatility_DII**!
