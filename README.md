@@ -4,9 +4,9 @@ This repository contains the supplementary material for the paper *"Non-parametr
 ---
 
 ## Overview
-This study examines the financial returns of the European Union Emissions Trading System (EU ETS) using data from January 2013 to 2024. We propose to use a recently introduced non-parametric tool from the physics literature named **Differentiable Information Imbalance (DII)** to identify variables that are causally related to EU ETS returns. The DII approach is compared with well-known linear approaches based on **VAR models** and **Granger causality**. 
+This study examines the financial returns of the European Union Emissions Trading System (EU ETS) using data from January 2013 to 2024. We propose to use a recently introduced non-parametric tool from the physics literature named **Differentiable Information Imbalance (DII)** to identify variables that are causally related to EU ETS returns. The DII approach is compared with well-known linear approaches based on **VAR models** and **Granger causality**.
 
-We find significant overlap among the causal variables identified by both linear and non-linear methods, such as the **price of coal** and the **IBEX35 index**, but also observe important differences. These differences could stem from the limitations of the linear methodology but require further investigation to be fully understood. 
+We find significant overlap among the causal variables identified by both linear and non-linear methods, such as **Coal Futures** and the **IBEX35 index**, but also observe important differences. These differences could stem from the limitations of the linear methodology but require further investigation to be fully understood. 
 
 The study provides valuable insights for enhancing causal discovery in financial and energy markets, providing potential implications for asset pricing, risk management, and policy decision-making.
 
