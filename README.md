@@ -28,15 +28,17 @@ The study provides valuable insights for enhancing causal discovery in financial
 
 ### Prerequisites
 Before you begin, ensure you have met the following requirements:
-- [Python](https://www.python.org/) = 3.11
-- [dadapy](https://dadapy.readthedocs.io/en/latest/#) = 0.2.0
-- [scikit-learn](https://scikit-learn.org/stable/) = 1.3.0
-- [pandas](https://pandas.pydata.org/) = 2.0.3
-- [numpy](https://numpy.org/) = 1.24.3
-- [scipy](https://www.scipy.org/) = 1.11.1
-- [statsmodels](https://www.statsmodels.org/stable/index.html) = 0.14.0
-- [matplotlib](https://matplotlib.org/) = 3.7.2
-- [seaborn](https://seaborn.pydata.org/) = 0.12.2
+Before you begin, ensure you have met the following requirements:
+- [Python](https://www.python.org/) = 3.12.0  
+- [pandas](https://pandas.pydata.org/) = 1.5.3  
+- [numpy](https://numpy.org/) = 1.24.0  
+- [matplotlib](https://matplotlib.org/) = 3.6.3  
+- [seaborn](https://seaborn.pydata.org/) = 0.11.2  
+- [scipy](https://www.scipy.org/) = 1.9.3  
+- [statsmodels](https://www.statsmodels.org/stable/index.html) = 0.13.5  
+- [pickle](https://docs.python.org/3/library/pickle.html) = 4.0
+- [jinja2](https://jinja.palletsprojects.com/en/latest/) = 3.1.4  
+
 
 ### Installation
 1. **Clone the repository:**
